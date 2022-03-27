@@ -16,7 +16,7 @@ public class LambdaHandler implements RequestHandler<APIGatewayV2ProxyRequestEve
     public static final String GREEN = "green";
     public static final String BLUE = "blue";
 
-    public static final String COLOR = BLUE;
+    public static final String COLOR = GREEN;
 
     private Gson gson = new GsonBuilder().setPrettyPrinting().create();
 
